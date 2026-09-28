@@ -82,8 +82,10 @@ body {
   }
 
   /* Better tap highlights */
-  -webkit-tap-highlight-color: transparent;
-  
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   /* Smooth scrolling for anchor links */
   html {
     scroll-padding-top: 80px;
